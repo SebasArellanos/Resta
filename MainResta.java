@@ -14,9 +14,9 @@ public class MainResta {
         y = op.nextInt();
 
         Resta evaluar = new Resta();
-        evaluar.x = x;
-        evaluar.y = y;
-        evaluar.mostrarResultado();
+        evaluar.setX(x);
+        evaluar.setY(y);
+        System.out.println("El resultado de la resta es: " + evaluar.mostrarResultado());
     }
 
 }
